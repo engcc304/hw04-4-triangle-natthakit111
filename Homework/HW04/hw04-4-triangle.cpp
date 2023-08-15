@@ -24,7 +24,7 @@ int main() {
     scanf( "%d %d", &height, &base ) ;
 
     float area = (height * base)/2 ;
-    printf( "Triangle Area : %.1f\n", area ) ;
+    printf( "Triagle Area : %.1f\n", area ) ;
 
     return 0 ;
 }//end function
