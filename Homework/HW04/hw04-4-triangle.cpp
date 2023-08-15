@@ -17,14 +17,14 @@
 #include <stdio.h>
 
 int main() {
+    float height, base;
 
-    int height, base;
+    printf("Enter height & base: ");
+    scanf("%f %f", &height, &base);
 
-    printf( "Enter H & W :\n" ) ;
-    scanf( "%d %d", &height, &base ) ;
+    float area = 0.5 * height * base;
 
-    float area = (height * base)/2 ;
-    printf( "Triagle Area : %.1f\n", area ) ;
+    printf("Triangle Area: %.1f\n", area);
 
-    return 0 ;
+    return 0;
 }//end function
