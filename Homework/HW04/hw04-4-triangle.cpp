@@ -19,12 +19,12 @@
 int main() {
     float height, base;
 
-    printf("Enter height & base: ");
+    printf("Enter H & W : ");
     scanf("%f %f", &height, &base);
 
     float area = 0.5 * height * base;
 
-    printf("Triangle Area: %.1f\n", area);
+    printf("Triagle Area : %.1f\n", area);
 
     return 0;
 }//end function
